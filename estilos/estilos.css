@@ -1,0 +1,15 @@
+.fondo{
+    background-image: url(../imagenes/sharingMIND_principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.baner{
+    background-color: black;
+    border-radius: 20px;
+    height: 150px;
+    width: 90%;
+}
+.alto{
+    height: 60vh;
+}
