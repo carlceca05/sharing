@@ -213,15 +213,19 @@
         </div>
     </section>
     <!--secion 6 cursos y talleres-->
-    <section class="container pt-5 pb-5 ">
+
+
+    
+
+    <section class="container-fluid pt-5 pb-5 ">
         <h2 class="fw-bold">Nuestros cursos y Talleres</h2>
         <p>Conoce nuestros cursos y talleres que tenemos para ti, sobre todos los temas que te ayudaran a mejorar tu
             estilo de vida y a llevar una vida en sintonia con tu emprededor interior</p>
         <h3 class="text-center mt-5 mb-5">Selecciona una de nuestras categorias</h3>
-        <div class="row row-cols-3 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
-            <div class="col d-grid">
-                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="">Inversionista </a>
-            </div>
+
+        
+        <!--<div class="row row-cols-3 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
+            
             <div class="col d-grid">
                 <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#">Entrepreneur</a>
             </div>
@@ -237,58 +241,105 @@
             <div class="col d-grid ">
                 <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#"> Otros</a>
             </div>
-        </div>
+        </div>-->
+            
+            <link rel="stylesheet" href="estilos/fil_2.css">
+            <input type="radio" id="todo" name="categories" value="todo" checked>
+            <input type="radio" id="Inversionista" name="categories" value="Inversionista">
+            <input type="radio" id="Entrepreneur" name="categories" value="Entrepreneur">
+            <input type="radio" id="Espiritú" name="categories" value="Espiritú">
+            <input type="radio" id="Marketing" name="categories" value="Marketing">
+            <input type="radio" id="Branding" name="categories" value="Branding">
+            <input type="radio" id="Otros" name="categories" value="Otros">
 
-
-
-        <!--aqui va el espacio para los cursos (filtros)-->
-        <div class="row bg-success pt-5 pb-5">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <img class="img-fluid rounded shadow" src="imagenes/startup-entrepreneurs.jpg" alt="">
+            <div class="row row-cols-3 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
+                <div class="col d-grid">
+                    <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="todo">todo</label>
+                </div>
+                <div class="col  d-grid">
+                    <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="Inversionista">Inversionista</label>
+                </div>
+                <div class="col d-grid ">
+                    <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="Entrepreneur">Entrepreneur</label>
+                </div>
+                <div class="col d-grid ">
+                    <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="Espiritú">Espiritú</label>
+                </div>
+                <div class="col d-grid ">
+                    <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="Marketing">Marketing</label>
+                </div>
             </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <h5>Comó invertir en la Bolsa de NY</h5>
-                <p class="lead"> Autor</p>
-                <p>Club de inversionistas
-                    Aprende cómo invertir y multiplicar tus ingresos de manera
-                    practica rodeado de inversionistas experimentados con
-                    resultados.</p>
-                <ul>
-                    <li> Aprende cómo invertir con riesgo controlado.</li>
-                    <li>Aprende como administrar correctamente tu capital.</li>
-                    <li>Aprende cómo evitar pérdidas y desarrollar tus propias
-                        estrategias de inversión.</li>
-                    <li>Practica tus inversiones de manera segura en simuladores.</li>
-                </ul>
-                <a class="btn btn-primary btn-lg text-white fw-bold shadow" href="#"> Conocer más </a>
-
-            </div>
-        </div>
+            <ol class="posts">
+                <li class="post" data-category="Espiritú">
+                    <div class="row bg-success pt-5 pb-5">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-fluid rounded shadow" src="imagenes/startup-entrepreneurs.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <h5>Comó invertir en la Bolsa de NY</h5>
+                            <p class="lead"> Autor</p>
+                            <p>Club de inversionistas
+                                Aprende cómo invertir y multiplicar tus ingresos de manera
+                                practica rodeado de inversionistas experimentados con
+                                resultados.</p>
+                            <ul>
+                                <li> Aprende cómo invertir con riesgo controlado.</li>
+                                <li>Aprende como administrar correctamente tu capital.</li>
+                                <li>Aprende cómo evitar pérdidas y desarrollar tus propias
+                                    estrategias de inversión.</li>
+                                <li>Practica tus inversiones de manera segura en simuladores.</li>
+                            </ul>
+                            <a class="btn btn-primary btn-lg text-white fw-bold shadow" href="#"> Conocer más </a>
+                        </div>
+                    </div>
+                  </li>
+                  <li class="post" data-category="Entrepreneur">
+                    <div class="row bg-success pt-5 pb-5">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <img class="img-fluid rounded shadow" src="imagenes/testimonio-alumna.jpg" alt="">
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <h5>Emprendimiento consciente</h5>
+                            <p class="lead"> Autor</p>
+                            <p>Club de inversionistas
+                                Aprende cómo invertir y multiplicar tus ingresos de manera
+                                practica rodeado de inversionistas experimentados con
+                                resultados.</p>
+                            <ul>
+                                <li> Aprende cómo invertir con riesgo controlado.</li>
+                                <li>Aprende como administrar correctamente tu capital.</li>
+                                <li>Aprende cómo evitar pérdidas y desarrollar tus propias
+                                    estrategias de inversión.</li>
+                                <li>Practica tus inversiones de manera segura en simuladores.</li>
+                            </ul>
+                            <a class="btn btn-primary btn-lg text-white fw-bold shadow" href="#"> Conocer más </a>
+                        </div>
+                    </div>
+                  </li>
+            </ol>
     </section>
-
-
 
     <!--seccion 7 mas facil-->
     <section class="container pt-5 pb-5 mb-5">
         <h2 class="mb-5 text-center">¿Porque es mas fácil con SharingMIND?</h2>
-        <ul class="pe-lg-5 me-lg-5  ps-lg-5 ms-lg-5 ">
-            <li> <i class="bi bi-check-lg"></i>&nbsp;&nbsp; Tenemos un sistema único de formación emprendedora
-                desde estar consciente del ser.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp; A diferencia de otros sistemas, este modelo de formación
+        <ul class="pe-lg-5 me-lg-5  ps-lg-5 ms-lg-5 " >
+            <p class=""> <i class="bi bi-check-lg"></i>&nbsp;&nbsp; Tenemos un sistema único de formación emprendedora
+                desde estar consciente del ser.</p>
+            <p><i class="bi bi-check-lg"></i>&nbsp;&nbsp; A diferencia de otros sistemas, este modelo de formación
                 comienza con la acción masiva inmediata para implementar
                 todas y cada una de las ideas de negocio iniciales en baja
                 escala, lo cual permite evaluar rápidamente la viabilidad del
-                proyecto.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;El sistema tiene como base la corroboración a través de la
+                proyecto.</p>
+            <p><i class="bi bi-check-lg"></i>&nbsp;&nbsp;El sistema tiene como base la corroboración a través de la
                 experiencia directa o corroboración práctica inmediata, lo
                 cual es la base para implementar rápidamente cualquier
                 proyecto de negocio.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            <p><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia
-                repudiandae omnis, enim inventore dolorem fugit expedita.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                repudiandae omnis, enim inventore dolorem fugit expedita.</p>
+            <p><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
                 at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia
-                repudiandae omnis, enim inventore dolorem fugit expedita.</li>
+                repudiandae omnis, enim inventore dolorem fugit expedita.</p>
         </ul>
     </section>
     <!--seccion 8 otro texto-->
@@ -319,8 +370,8 @@
                         <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
                         <p class="card-text mt-0"><small> Creador de contenido y emprendedor  </small>  </p>
                     </div>
-                    <div>
-                        <img class="testi" src="imagenes/ico-quote-mark.webp" alt="">
+                    <div class="testi">
+                        <img class="" src="imagenes/ico-quote-mark.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -335,7 +386,9 @@
                         <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
                         <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
                         <p class="card-text mt-0"><small> Creador de contenido y emprendedor  </small>  </p>
-                        
+                        <div class="testi">
+                            <img class="" src="imagenes/ico-quote-mark.webp" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -351,21 +404,8 @@
                         <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
                         <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
                     </div>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="row">
-                <div class="col-4">
-                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
-                </div>
-                <div class="col-8">
-                    <div class="card-body">
-                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
-                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
-                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
-                        
+                    <div class="testi">
+                        <img class="" src="imagenes/ico-quote-mark.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -380,6 +420,26 @@
                         <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
                         <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
                         <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
+                    </div>
+                    <div class="testi">
+                        <img class="" src="imagenes/ico-quote-mark.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
+                    </div>
+                    <div class="testi">
+                        <img class="" src="imagenes/ico-quote-mark.webp" alt="">
                     </div>
                 </div>
             </div>

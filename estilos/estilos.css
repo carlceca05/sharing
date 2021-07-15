@@ -13,3 +13,24 @@
 .alto{
     height: 60vh;
 }
+.testi{
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 3px;
+}
+
+#imagenes img {
+    max-width: 200px;
+  }
+  #laptop:checked ~ #imagenes .tablet, #laptop:checked ~ #imagenes .movil {
+      display: none;
+  }
+  
+  #tablet:checked ~ #imagenes .laptop, #tablet:checked ~ #imagenes .movil {
+      display: none;
+  }
+  
+  #movil:checked ~ #imagenes .tablet, #movil:checked ~ #imagenes .laptop {
+      display: none;
+  }
