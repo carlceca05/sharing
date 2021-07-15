@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SharingMIND</title>
-    
+
     <link rel="icon" type="image/png" href="imagenes/logo_sharingMIND_favicon.png">
     <link type="text/css" rel="stylesheet" href="estilos/estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos/est_car.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+
+    <script src="js/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
     <style>
-
-        body{
+        body {
             font-family: 'Poppins', sans-serif;
         }
     </style>
 
 </head>
+
 <body>
     <!--  menu de navegación  -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <div class="container ">
             <a class="navbar-brand" href="index.html">
-                    <img src="imagenes/logo_sharingMIND_log.png"alt="logo" width="55" height="55">
+                <img src="imagenes/logo_sharingMIND_log.png" alt="logo" width="55" height="55">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item" >
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html"> Inicio </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos y Talleres  </a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Cursos y Talleres </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item fw-bold" href="#">Inversionista</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp;  Comó invertir en la Bolsa de NY</a>
+                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó invertir en la Bolsa de NY</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item fw-bold" href="#">Marketing</a></li>
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; Marketing y Ventas Online</a>
                             </li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó iniciar un negocio de mercado en redes</a>
+                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó iniciar un negocio de mercado en
+                                    redes</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item fw-bold" href="#">Espiritú</a></li>
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; Simplicidad</a>
@@ -61,7 +88,9 @@
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; Propósito de vida</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item fw-bold" href="#">Entrepreneur</a></li>
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; El juego del dinero</a>
@@ -69,13 +98,16 @@
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; Liderazgo Consciente</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li><a class="dropdown-item fw-bold" href="#">Otros</a></li>
                             <li>
                                 <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó hacer sitios web</a>
                             </li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Venta de servicios de diseño de páginas y social media manager</a>
+                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Venta de servicios de diseño de páginas
+                                    y social media manager</a>
                             </li>
                         </ul>
                     </li>
@@ -89,7 +121,7 @@
                         <a class="nav-link text-light" href=""></a>
                     </li>
                     <li class="nav-item desaparesidos">
-                        <a class="nav-link" href="https://www.facebook.com/sharingmind"> 
+                        <a class="nav-link" href="https://www.facebook.com/sharingmind">
                             <i class="bi bi-facebook"></i>
                         </a>
                     </li>
@@ -102,7 +134,9 @@
         <div class="container text-center mt-5 pt-5 ">
             <h1 class="mt-5 text-white">Bienvenidos a SharingMIND</h1>
             <h2 class="lead text-white"> Comunidad de emprendimiento y liderazgo</h2>
-            <p class="text-white"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maxime earum deleniti quia eveniet laboriosam, at, perferendis facilis, minima reprehenderit nam laudantium corporis excepturi blanditiis provident eligendi repellendus optio. Eveniet.</p>
+            <p class="text-white"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maxime earum deleniti
+                quia eveniet laboriosam, at, perferendis facilis, minima reprehenderit nam laudantium corporis excepturi
+                blanditiis provident eligendi repellendus optio. Eveniet.</p>
             <a class="btn btn-primary btn-lg text-white fw-bold shadow" href="#registro"> Conocer más </a>
         </div>
     </section>
@@ -110,22 +144,32 @@
     <section class="container-fluid pt-5 pb-5 ">
         <div class="container pt-5 pb-5 text-center ">
             <h2>Formación Emprendedora</h2>
-            <p>Los jóvenes emprendedores carecen de habilidades gerenciales, de liderazgo y planeación estratégica, no tienen conocimiento adecuado del mercado y cómo segmentarlo, ignoran cómo hacer marketing de respuesta rápida, cómo elaborar un plan de negocio enfocado a resolver los problemas del mercado objetivo, etc.</p>
-            <p>Muchos dueños de negocio ignoran cómo utilizar de manera adecuada todas las herramientas disponibles para promocionarse en internet de tal manera que sus negocios puedan ser conocidos en todo el mundo y crecer exponencialmente.  </p>
+            <p>Los jóvenes emprendedores carecen de habilidades gerenciales, de liderazgo y planeación estratégica, no
+                tienen conocimiento adecuado del mercado y cómo segmentarlo, ignoran cómo hacer marketing de respuesta
+                rápida, cómo elaborar un plan de negocio enfocado a resolver los problemas del mercado objetivo, etc.
+            </p>
+            <p>Muchos dueños de negocio ignoran cómo utilizar de manera adecuada todas las herramientas disponibles para
+                promocionarse en internet de tal manera que sus negocios puedan ser conocidos en todo el mundo y crecer
+                exponencialmente. </p>
         </div>
     </section>
     <!--seccion 3 porque nosotros-->
     <section class="container-fluid bg-primary pt-5 pb-5">
         <div class="container text-center text-white pt-5 pb-5">
             <h2>¿Por qué nosotros?</h2>
-            <p>Los verdaderos problemas que suelen tener los emprendedores son internos, la buena noticia es que resolverlos
+            <p>Los verdaderos problemas que suelen tener los emprendedores son internos, la buena noticia es que
+                resolverlos
                 depende de nosotros mismos, la mala es que hay que enfrentarse a estos programas y patrones de
-                mentalidad, ya que mientras no se resuelvan y se alínen con el propósito del emprendimiento, los resultados
+                mentalidad, ya que mientras no se resuelvan y se alínen con el propósito del emprendimiento, los
+                resultados
                 serán promedio.</p>
             <p>SharingMind está conformado por emprendedores seriales que empezaron sus negocios desde la
-                adolescencia, contamos con más de 100 años de experiencia entre todos y partimos de la verdadera identidad
-                del ser, lo cual nos hace ser los primeros en implementar una metodología que incluye sólo lo verdaderamente
-                indispensable para que cualquier persona, sin importar su situación actual pueda tener éxito en cualquier
+                adolescencia, contamos con más de 100 años de experiencia entre todos y partimos de la verdadera
+                identidad
+                del ser, lo cual nos hace ser los primeros en implementar una metodología que incluye sólo lo
+                verdaderamente
+                indispensable para que cualquier persona, sin importar su situación actual pueda tener éxito en
+                cualquier
                 entorno.</p>
         </div>
     </section>
@@ -134,9 +178,15 @@
         <div class="row pt-5 pb-5">
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <h2>¿Qué ofrecemos?</h2>
-                <p>Talleres para jóvenes y dueños de negocios enfocados en ayudar al emprendedor a comenzar con la mentalidad correcta en el mundo de los negocios: emprender desde la consciencia para maximizar las posibilidades de éxito en todos los proyectos.
-                <br><br>Seminarios semanales que muestran paso a paso:
-                <br><br>Cómo elaborar un plan de negocios, cómo desarrollar una investigación de mercados, cómo vender mas, cómo crear un sitio web, cómo hacer publicidad y marketing para vender en internet a nivel mundial acelerando el crecimiento exponencial del negocio, etc. <br><br>Cómo empezar a tomar acción masiva inmediata para crear más fuentes de ingreso progresivamente.</p>
+                <p>Talleres para jóvenes y dueños de negocios enfocados en ayudar al emprendedor a comenzar con la
+                    mentalidad correcta en el mundo de los negocios: emprender desde la consciencia para maximizar las
+                    posibilidades de éxito en todos los proyectos.
+                    <br><br>Seminarios semanales que muestran paso a paso:
+                    <br><br>Cómo elaborar un plan de negocios, cómo desarrollar una investigación de mercados, cómo
+                    vender mas, cómo crear un sitio web, cómo hacer publicidad y marketing para vender en internet a
+                    nivel mundial acelerando el crecimiento exponencial del negocio, etc. <br><br>Cómo empezar a tomar
+                    acción masiva inmediata para crear más fuentes de ingreso progresivamente.
+                </p>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <img class="img-fluid rounded shadow" src="imagenes/startup-entrepreneurs.jpg" alt="">
@@ -151,10 +201,13 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <h2>¿Qué ofrecemos?</h2>
-                <p>Ofrecemos las mejores soluciones para todos aquellos que inician un proyecto por su cuenta y necesitan de un coach para
-                    definir los procedimientos estratégicos, administrativos y financieros más adecuados, ó bien ya tienen un negocio y lo quieren
+                <p>Ofrecemos las mejores soluciones para todos aquellos que inician un proyecto por su cuenta y
+                    necesitan de un coach para
+                    definir los procedimientos estratégicos, administrativos y financieros más adecuados, ó bien ya
+                    tienen un negocio y lo quieren
                     llevar al siguiente nivel utilizando las últimas herramientas disponibles en el mercado.
-                    Desarrollamos la capacidad de los emprendedores para detectar rápidamente los problemas del mercado y les ayudamos a
+                    Desarrollamos la capacidad de los emprendedores para detectar rápidamente los problemas del mercado
+                    y les ayudamos a
                     definir la mejor vía para solucionarlos.</p>
             </div>
         </div>
@@ -162,20 +215,21 @@
     <!--secion 6 cursos y talleres-->
     <section class="container pt-5 pb-5 ">
         <h2 class="fw-bold">Nuestros cursos y Talleres</h2>
-        <p>Conoce nuestros cursos y talleres que tenemos para ti, sobre todos los temas que te ayudaran a mejorar tu estilo de vida y a llevar una vida en sintonia con tu emprededor interior</p>
+        <p>Conoce nuestros cursos y talleres que tenemos para ti, sobre todos los temas que te ayudaran a mejorar tu
+            estilo de vida y a llevar una vida en sintonia con tu emprededor interior</p>
         <h3 class="text-center mt-5 mb-5">Selecciona una de nuestras categorias</h3>
         <div class="row row-cols-3 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
             <div class="col d-grid">
                 <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="">Inversionista </a>
             </div>
             <div class="col d-grid">
-                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#">Entrepreneur</a> 
+                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#">Entrepreneur</a>
             </div>
             <div class="col  d-grid">
-                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="">Espiritú</a> 
+                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="">Espiritú</a>
             </div>
             <div class="col d-grid ">
-                    <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#">Marketing</a>
+                <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#">Marketing</a>
             </div>
             <div class="col d-grid ">
                 <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#"> Branding</a>
@@ -184,10 +238,11 @@
                 <a class="btn btn-outline-primary lh-lg fw-bold p-3" href="#"> Otros</a>
             </div>
         </div>
-    
-        
+
+
+
         <!--aqui va el espacio para los cursos (filtros)-->
-        <div class="row bg-success pt-5 pb-5" >
+        <div class="row bg-success pt-5 pb-5">
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <img class="img-fluid rounded shadow" src="imagenes/startup-entrepreneurs.jpg" alt="">
             </div>
@@ -210,6 +265,9 @@
             </div>
         </div>
     </section>
+
+
+
     <!--seccion 7 mas facil-->
     <section class="container pt-5 pb-5 mb-5">
         <h2 class="mb-5 text-center">¿Porque es mas fácil con SharingMIND?</h2>
@@ -225,46 +283,171 @@
                 experiencia directa o corroboración práctica inmediata, lo
                 cual es la base para implementar rápidamente cualquier
                 proyecto de negocio.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia repudiandae omnis, enim inventore dolorem fugit expedita.</li>
-            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia repudiandae omnis, enim inventore dolorem fugit expedita.</li>
+            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia
+                repudiandae omnis, enim inventore dolorem fugit expedita.</li>
+            <li><i class="bi bi-check-lg"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                at velit commodi, a iusto cupiditate doloremque nemo. Saepe numquam, consectetur illo excepturi quia
+                repudiandae omnis, enim inventore dolorem fugit expedita.</li>
         </ul>
     </section>
     <!--seccion 8 otro texto-->
     <section class="container-fluid pt-5 pb-5 ">
         <div class="container  mt-5 mb-5 text-center">
-            <p>Los expertos coinciden en que hace falta mejorar la formación académica en materia de emprendedurismo.</p>
-            <p>Actualmente muchas generaciones de egresados salen de la universidad sin ganas de mpertenecer a un corporativo, con la firme intención de vivir de aquello que los apasiona. Es decir, que en lugar de esperar por las organizaciones, ellos mismos desarrollan iniciativas para combatir el desempleo.</p>
-            <p>En México existen muchas dificultades para promover el emprendedurismo entre los más jóvenes. Ellos entienden que la principal razón es la falta de formación en negocios, así como de experiencia en campos como administración, liderazgo, finanzas personales, formación de alianzas estratégicas, recursos humanos, mentalidad adecuada, etc</p>
+            <p>Los expertos coinciden en que hace falta mejorar la formación académica en materia de emprendedurismo.
+            </p>
+            <p>Actualmente muchas generaciones de egresados salen de la universidad sin ganas de mpertenecer a un
+                corporativo, con la firme intención de vivir de aquello que los apasiona. Es decir, que en lugar de
+                esperar por las organizaciones, ellos mismos desarrollan iniciativas para combatir el desempleo.</p>
+            <p>En México existen muchas dificultades para promover el emprendedurismo entre los más jóvenes. Ellos
+                entienden que la principal razón es la falta de formación en negocios, así como de experiencia en campos
+                como administración, liderazgo, finanzas personales, formación de alianzas estratégicas, recursos
+                humanos, mentalidad adecuada, etc</p>
         </div>
     </section>
     <!--seccion 9 testimonios-->
-    <section class="container pt-5 pb-5">
-        
-
-
-    </section>
-    <!--seccion 10 banners-->
     <section class="container">
-        <div class="baner mb-3"></div>
-        <div class="baner"></div>
+    <div class="items">
+        <div class="card ">
+            <div class="row ">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor  </small>  </p>
+                    </div>
+                    <div>
+                        <img class="testi" src="imagenes/ico-quote-mark.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor  </small>  </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
+                </div>
+                <div class="col-8">
+                    <div class="card-body">
+                        <h5 class="card-title">"SharingMIND me ayudo a emprender, gracias.."</h5>
+                        <p class="card-text mb-0"><small>Armando Perez olivas</small>  </p>
+                        <p class="card-text mt-0"><small> Creador de contenido y emprendedor</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- carrusel  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+
+    <!--seccion 10 banners-->
+    <section class="container pb-5">
+        <div class="baner mb-3 ">
+
+        </div>
+        <div class="baner">
+
+        </div>
 
     </section>
     <!--footer-->
-    <section class="container-fluid bg-secondary">
-        <div class="container">
-            <div class="row">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0&appId=1451065138573426&autoLogAppEvents=1"
+        nonce="Jtz1yKTB"></script>
+    <section class="container-fluid bg-secondary pt-5">
+        <div class="container ">
+            <div class="row text-white">
                 <div class="col">
                     <h4>Boletín Informativo</h4>
-                    <p>No te pierdas toda la informacion
-                        sobre nuevos cursos y talleres </p>
+                    <p>No te pierdas toda la informacion sobre nuevos cursos y talleres </p>
+
                 </div>
-                <div class="col">
-                    aqui va facebook (tentativo)
+                <div class="col ">
+                    <div class="fb-page" data-href="https://www.facebook.com/sharingmindgroup/" data-width="270"
+                        data-hide-cover="false" data-show-facepile="false"></div>
                 </div>
-                <div class="col">
+                <div class="col ">
                     <h4>Cursos y talleres</h4>
-                    <h6>Inversionista</h6>
-                    <p>Comó invertir en la Bolsa de NY</p>
+                    <a class="fw-bold text-decoration-none text-white" href="#">Inversionista</a>
+                    <a class="text-decoration-none text-white" href="#"> Comó invertir en la Bolsa de NY</a>
+                    <hr class="dropdown-divider">
+                    <a class="fw-bold" href="#">Marketing</a>
+                    <a class="" href="#">Marketing y Ventas Online</a>
+                    <a class="" href="#"> Comó iniciar un negocio de mercado en redes</a>
+                    <hr class="dropdown-divider">
+                    <a class="fw-bold" href="#">Espiritú</a>
+                    <a class="" href="#"> Simplicidad</a>
+                    <a class="" href="#"> Propósito de vida</a>
+                    <hr class="dropdown-divider">
+                    <a class="fw-bold" href="#">Entrepreneur</a>
+                    <a class="" href="#"> El juego del dinero</a>
+                    <a class="" href="#">Liderazgo Consciente</a>
+                    <hr class="dropdown-divider">
+                    <a class="fw-bold" href="#">Otros</a>
+                    <a class="" href="#">Comó hacer sitios web</a>
+                    <a class="" href="#">Venta de servicios de diseño de páginas y social media manager</a>
                 </div>
                 <div class="col">
                     <h4>Mapa de sitio</h4>
@@ -276,19 +459,78 @@
                 </div>
             </div>
             <hr>
-            <div>
-                <p>“Por una nueva generacion de emprendedores” SharingMIND_ [TRASCENDENCIA COLECTIVA]</p>
-                <i class="bi bi-facebook"></i>
-
+            <div class="container text-white pt-3 pb-3">
+                <div class="row">
+                    <div class="col-1">
+                        <img class="img-fluid" src="imagenes/logo_sharingMIND_ (2).png" width="100" height="auto"
+                            alt="">
+                    </div>
+                    <div class="col-8">
+                        <span class="">
+                            <p class="lh-lg"> SharingMIND_ [TRASCENDENCIA COLECTIVA]</p>
+                        </span>
+                    </div>
+                    <div class="col-3">
+                        <p class="text-end"> Privacidad &nbsp;&nbsp; <i class="bi bi-facebook "> <a
+                                    href="https://www.facebook.com/sharingmindgroup/"></a> </i></p>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
 
 
 
     <!--scripts-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--carrusel-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.items').slick({
+                dots: true,
+                infinite: true,
+                speed: 5000,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+
+                ]
+            });
+        });
+    </script>
+
 
 </body>
+
 </html>
