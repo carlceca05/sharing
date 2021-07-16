@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="imagenes/logo_sharingMIND_favicon.png">
     <link type="text/css" rel="stylesheet" href="estilos/estilos.css">
 
-    <link rel="stylesheet" href="estilos/est_car.css">
+    
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
 
@@ -38,6 +38,12 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
+        @media screen (min-width:100) and (max-width: 900px) {
+            .alto{
+                height: auto;
+            }
+    
+        }
     </style>
 
 </head>
@@ -59,55 +65,53 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html"> Inicio </a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">Cursos y Talleres </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item fw-bold" href="#">Inversionista</a></li>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <li class=""><a class="dropdown-item fw-bold" href="#">Inversionista</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó invertir en la Bolsa de NY</a>
+                                <a class="dropdown-item " href="#"> <small>Comó invertir en la Bolsa de NY</small></a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item fw-bold" href="#">Marketing</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Marketing y Ventas Online</a>
+                                <a class="dropdown-item " href="#"><small> Marketing y Ventas Online</small></a>
                             </li>
-                            <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó iniciar un negocio de mercado en
-                                    redes</a>
+                            <li class="">
+                                <a class="dropdown-item " href="#"> <small> Comó iniciar un negocio <br>de mercado en redes</small></a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item fw-bold" href="#">Espiritú</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Simplicidad</a>
+                                <a class="dropdown-item " href="#"> Simplicidad</a>
                             </li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Propósito de vida</a>
+                                <a class="dropdown-item " href="#"> Propósito de vida</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item fw-bold" href="#">Entrepreneur</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; El juego del dinero</a>
+                                <a class="dropdown-item " href="#"> El juego del dinero</a>
                             </li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Liderazgo Consciente</a>
+                                <a class="dropdown-item " href="#"> Liderazgo Consciente</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item fw-bold" href="#">Otros</a></li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Comó hacer sitios web</a>
+                                <a class="dropdown-item " href="#"> Comó hacer sitios web</a>
                             </li>
                             <li>
-                                <a class="dropdown-item " href="#">&nbsp; &nbsp; Venta de servicios de diseño de páginas
-                                    y social media manager</a>
+                                <a class="dropdown-item " href="#"><small> Venta de servicios de diseño<br> de páginas y social media manager</small></a>
                             </li>
                         </ul>
                     </li>
@@ -132,8 +136,8 @@
     <!--seccion 1 principal-->
     <section class="jumbotron-fluid alto fondo pt-5 pb-5">
         <div class="container text-center mt-5 pt-5 ">
-            <h1 class="mt-5 text-white">Bienvenidos a SharingMIND</h1>
-            <h2 class="lead text-white"> Comunidad de emprendimiento y liderazgo</h2>
+            <h1 class="mt-5 text-white fw-bold">Bienvenidos a SharingMIND_</h1>
+            <h2 class=" text-white mt-4"> Comunidad de emprendimiento y liderazgo</h2>
             <p class="text-white"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maxime earum deleniti
                 quia eveniet laboriosam, at, perferendis facilis, minima reprehenderit nam laudantium corporis excepturi
                 blanditiis provident eligendi repellendus optio. Eveniet.</p>
@@ -220,7 +224,7 @@
                 estilo de vida y a llevar una vida en sintonia con tu emprededor interior</p>
             <h3 class="text-center mt-5 mb-5">Selecciona una de nuestras categorias</h3>
     
-            <link rel="stylesheet" href="estilos/fil_2.css">
+          
             <input type="radio" id="todo" name="categories" value="todo" checked>
             <input type="radio" id="Inversionista" name="categories" value="Inversionista">
             <input type="radio" id="Entrepreneur" name="categories" value="Entrepreneur">
@@ -229,7 +233,7 @@
             <input type="radio" id="Branding" name="categories" value="Branding">
             <input type="radio" id="Otros" name="categories" value="Otros">
     
-            <div class="row row-cols-3 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
+            <div class="row row-cols-2 row-cols-md-4 g-3 g-md-3  text-center mb-5 ">
                 <div class="col d-grid">
                     <label class="btn btn-outline-primary lh-lg fw-bold p-3" for="todo">todo</label>
                 </div>
@@ -274,13 +278,13 @@
                 </li>
                 -->
                 <!--CATEGORIA INVERSIONISTA-->
-                <li class="post mb-3" data-category="Inversionista">
+                <li class="post mb-3 shadow" data-category="Inversionista">
                     <div class="card ">
-                        <div class="row p-1">
-                            <div class="col-4">
+                        <div class="row row-cols-1 row-cols-md-2 p-4">
+                            <div class="col">
                                 <img class="img-fluid rounded shadow" src="imagenes/startup-entrepreneurs.jpg" alt="">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                 <div class="card-body ">
                                     <h5>Comó invertir en la Bolsa de NY</h5>
                                     <p class="card-subtitle ">Germán Borja</p>
@@ -302,13 +306,13 @@
                     </div>
                 </li>
                 <!--CATEGORIA ENTREPRENEUR-->
-                <li class="post" data-category="Entrepreneur">
+                <li class="post mb-3 shadow" data-category="Entrepreneur">
                     <div class="card ">
-                        <div class="row p-1">
-                            <div class="col-4">
+                        <div class="row row-cols-1 row-cols-md-2 p-4">
+                            <div class="col">
                                 <img src="imagenes/testimonio-alumna.jpg" class="img-fluid pt-2 ps-2" alt="...">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                 <div class="card-body ">
                                     <h5 class="card-title">El juego del dinero</h5>
                                     <p class="card-subtitle ">Germán Borja</p>
@@ -330,13 +334,13 @@
                     </div>
                 </li>
                 <!--CATEGORIA ESPIRITU-->
-                <li class="post" data-category="Espiritú">
+                <li class="post mb-3 shadow" data-category="Espiritú">
                     <div class="card ">
-                        <div class="row p-1">
-                            <div class="col-4">
+                        <div class="row row-cols-1 row-cols-md-2 p-4">
+                            <div class="col">
                                 <img src="imagenes/logo_sharingMIND_ (2).png" class="img-fluid pt-2 ps-2" alt="...">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                 <div class="card-body ">
                                     <h5 class="card-title">Simplicidad</h5>
                                     <p class="card-subtitle ">Germán Borja</p>
@@ -511,45 +515,45 @@
         </div>
 
     </section>
-    <!--footer-->
+    <!--faceb sdk footer-->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0&appId=1451065138573426&autoLogAppEvents=1"
         nonce="Jtz1yKTB"></script>
-    <section class="container-fluid bg-secondary pt-5">
+
+    <!--foooter-->
+    <section class="container-fluid bg-light pt-5">
         <div class="container ">
-            <div class="row text-white">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-md-2 ">
+                <div class="col text-center text-md-start text-sm-center text-xs-center text-secondary">
                     <h4>Boletín Informativo</h4>
                     <p>No te pierdas toda la informacion sobre nuevos cursos y talleres </p>
-
                 </div>
-                <div class="col ">
+                <div class="col text-center text-md-start text-sm-center text-xs-center mt-sm-5 mt-5 mt-md-0 text-secondary"> 
+                    <h4>Visita nuestras redes sociales</h4>
                     <div class="fb-page" data-href="https://www.facebook.com/sharingmindgroup/" data-width="270"
                         data-hide-cover="false" data-show-facepile="false"></div>
                 </div>
-                <div class="col ">
+                <div class="col text-center text-md-start text-sm-center text-xs-center mt-sm-5 mt-5 mt-md-2 text-secondary">
                     <h4>Cursos y talleres</h4>
-                    <a class="fw-bold text-decoration-none text-white" href="#">Inversionista</a>
-                    <a class="text-decoration-none text-white" href="#"> Comó invertir en la Bolsa de NY</a>
-                    <hr class="dropdown-divider">
-                    <a class="fw-bold" href="#">Marketing</a>
-                    <a class="" href="#">Marketing y Ventas Online</a>
-                    <a class="" href="#"> Comó iniciar un negocio de mercado en redes</a>
-                    <hr class="dropdown-divider">
-                    <a class="fw-bold" href="#">Espiritú</a>
-                    <a class="" href="#"> Simplicidad</a>
-                    <a class="" href="#"> Propósito de vida</a>
-                    <hr class="dropdown-divider">
-                    <a class="fw-bold" href="#">Entrepreneur</a>
-                    <a class="" href="#"> El juego del dinero</a>
-                    <a class="" href="#">Liderazgo Consciente</a>
-                    <hr class="dropdown-divider">
-                    <a class="fw-bold" href="#">Otros</a>
-                    <a class="" href="#">Comó hacer sitios web</a>
-                    <a class="" href="#">Venta de servicios de diseño de páginas y social media manager</a>
+                    <ul class="list-unstyled ms-auto mb-2 mb-lg-0 ">
+                        <li class=""><a class="enlacefooter fw-bold " href="#">Inversionista</a></li>
+                        <li><a class="enlacefooter" href="#"> <small>Comó invertir en la Bolsa de NY</small></a></li>
+                        <li><a class="enlacefooter fw-bold" href="#">Marketing</a></li>
+                        <li><a class="enlacefooter " href="#"><small> Marketing y Ventas Online</small></a></li>
+                        <li class=""><a class="enlacefooter " href="#"> <small> Comó iniciar un negocio <br>de mercado en redes</small></a></li>
+                        <li><a class="enlacefooter fw-bold" href="#">Espiritú</a></li>
+                        <li><a class="enlacefooter " href="#"> Simplicidad</a></li>
+                        <li><a class="enlacefooter " href="#"> Propósito de vida</a></li>
+                        <li><a class="enlacefooter fw-bold" href="#">Entrepreneur</a></li>
+                        <li><a class="enlacefooter " href="#"> El juego del dinero</a></li>
+                        <li><a class=" enlacefooter" href="#"> Liderazgo Consciente</a></li>
+                        <li><a class="enlacefooter fw-bold" href="#">Otros</a></li>
+                        <li><a class=" enlacefooter" href="#"> Comó hacer sitios web</a></li>
+                        <li><a class="enlacefooter " href="#"><small> Venta de servicios de diseño<br> de páginas y social media manager</small></a></li>
+                    </ul>
                 </div>
-                <div class="col">
+                <div class="col text-center text-md-start text-sm-center text-xs-center mt-sm-5 mt-5 mt-md-2 text-secondary">
                     <h4>Mapa de sitio</h4>
                     <p>Inicio</p>
                     <p>Cursos y talleres</p>
@@ -559,19 +563,19 @@
                 </div>
             </div>
             <hr>
-            <div class="container text-white pt-3 pb-3">
-                <div class="row">
-                    <div class="col-1">
-                        <img class="img-fluid" src="imagenes/logo_sharingMIND_ (2).png" width="100" height="auto"
-                            alt="">
+            <div class="container text-secondary pt-3 pb-3">
+                <div class="row ">
+                    <div class="col-md-1 col-sm-12">
+                        <p class="text-center text-lg-start text-sm-center text-xs-center"> <img class="img-fluid " src="imagenes/logo_sharingMIND_ (2).png" width="" height=""
+                            alt=""></p>
                     </div>
-                    <div class="col-8">
+                    <div class="col-md-8 col-sm-12">
                         <span class="">
-                            <p class="lh-lg"> SharingMIND_ [TRASCENDENCIA COLECTIVA]</p>
+                            <p class="text-center text-md-start text-sm-center text-xs-center"> SharingMIND_ [TRASCENDENCIA COLECTIVA]</p>
                         </span>
                     </div>
-                    <div class="col-3">
-                        <p class="text-end"> Privacidad &nbsp;&nbsp; <i class="bi bi-facebook "> <a
+                    <div class="col-md-3 col-sm-12">
+                        <p class="text-center text-lg-end text-sm-center text-xs-center"> Privacidad &nbsp;&nbsp; <i class="bi bi-facebook "> <a
                                     href="https://www.facebook.com/sharingmindgroup/"></a> </i></p>
                     </div>
                 </div>
