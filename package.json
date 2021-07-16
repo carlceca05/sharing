@@ -1,0 +1,23 @@
+{
+  "name": "sharingmind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlceca05/sharing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlceca05/sharing/issues"
+  },
+  "homepage": "https://github.com/carlceca05/sharing#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
